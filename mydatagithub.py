@@ -19,4 +19,8 @@ following=elemn.select(f'a[href="/{userfollower}?tab=following"]')[0].getText()
 followers=elemn.select(f'a[href="/{userfollower}?tab=followers"]')[0].getText()
 stars=elemn.select(f'a[href="/{userfollower}?tab=stars"]')[0].getText()
 
-print((stars))
+print(f"""
+{followers}
+{following}
+{stars}
+""")
