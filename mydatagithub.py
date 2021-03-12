@@ -1,6 +1,6 @@
 import requests,bs4
 
-userfollower = "Antonio-Gabriel"
+userfollower = "user"
 
 requiri = requests.get(f'https://github.com/{userfollower}')
 
